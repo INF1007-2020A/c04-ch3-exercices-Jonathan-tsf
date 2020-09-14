@@ -42,13 +42,13 @@ FAIL: test_square_root (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 22, in test_square_root
     'Mauvais calcul de la racine carré'
-AssertionError: Lists differ: [0.0, 0.0, 0.0] != [3.4641016151377544, 14.142135623730951, 4.47213595499958]
+AssertionError: Lists differ: [12, 200, 20] != [3.4641016151377544, 14.142135623730951, 4.47213595499958]
 
 First differing element 0:
-0.0
+12
 3.4641016151377544
 
-- [0.0, 0.0, 0.0]
+- [12, 200, 20]
 + [3.4641016151377544, 14.142135623730951, 4.47213595499958] : Mauvais calcul de la racine carré
 
 ======================================================================
@@ -115,6 +115,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.004s
+Ran 7 tests in 0.002s
 
 FAILED (failures=7)
