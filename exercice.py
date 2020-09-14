@@ -10,7 +10,7 @@ def square_root(a: float) -> float:
 
 
 def square(a: float) -> float:
-    a = a^2
+    a = math.s
     return a
 
 
